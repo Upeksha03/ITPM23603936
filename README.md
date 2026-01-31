@@ -8,8 +8,8 @@ This repository contains the automated testing suite for the **SwiftTranslator**
 ## 👤 Student Information
 | Field | Details |
 | :--- | :--- |
-| **Name** |  |
-| **Student ID** |  |
+| **Name** |Chandrarathna A.A.U.M  |
+| **Student ID** | it23603936 |
 | **Specialization** | Information Technology |
 | **Option Selected** | Option 1 (Singlish to Sinhala) |
 
@@ -36,12 +36,12 @@ Clone this repository to your local machine and install the dependencies:
 
 ###### Clone the repository
 ```bash
-git clone https://github.com/pasindu8/IT3040---IT-Project-Management.git
+git clone https://github.com/Upeksha03/ITPM23603936.git
 ```
 
 ###### Navigate into the folder
 ```bash
-cd SLIIT ITPM
+cd ITPM
 ```
 
 ###### Install Node modules
@@ -62,7 +62,7 @@ You can run the tests using the following terminal commands:
 | :--- | :--- |
 | Run All Tests (Headed) | npx playwright test --headed |
 | Run Accuracy Tests | npx playwright test tests/assignment.spec.js --headed |
-| Run UI-Related Tests | npx playwright test tests/test.spec.js --headed |
+| Run UI-Related Tests | npx playwright test tests/UI.spec.js --headed |
 | View Test Report | npx playwright show-report |
 
 ---
@@ -71,11 +71,11 @@ You can run the tests using the following terminal commands:
 ```text
 ├── tests/
 │   ├── assignment.spec.js   # Accuracy validation scenarios (24+ cases)
-│   └── test.spec.js         # UI-related scenarios (Reset/Clear functionality)
+│   └── UI.spec.js         # UI-related scenarios (Reset/Clear functionality)
 ├── playwright.config.js     # Playwright configuration
 ├── package.json             # Project dependencies
 ├── README.md                # Project documentation
-└── IT23630116.xlsx          # Test Case document (Appendix 2)
+└── IT23603936.xlsx          # Test Case document (Appendix 2)
 ```
 
 ---
